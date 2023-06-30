@@ -54,6 +54,7 @@
 	.header {
 		top: initial;
 		bottom: 0;
+		
 	}
 
 	.nav {
@@ -62,14 +63,20 @@
 
 	.nav__menu {
 		position: fixed;
-		bottom: 0;
+		bottom: -100%;
 		left: 0;
 		width: 100%;
-		background-color: var(--body);
+		background-color: #fff;
 		padding: 2rem 1.5rem 4rem;
 		box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 		border-radius: 1.5rem 1.5rem 0 0;
 		transition: .3s;
+		
+	}
+
+	/* SHOW MENU */
+	.show-menu {
+		bottom: 0;
 	}
 
 	.nav__list {
@@ -93,6 +100,11 @@
 
 	.nav__close:hover {
 		color: var(--cor-preta-titulo);
+	}
+
+	.nav__toggle {
+		font-size: 1.1rem;
+		cursor: pointer;
 	}
 
 	.nav__icon,
