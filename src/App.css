@@ -1,6 +1,7 @@
 /*============== FONTS ============== */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+
 /*============ VARIAVEIS PARA O CSS ==========*/
 :root {
 	--header-height: 3rem;
@@ -9,7 +10,7 @@
 	--cor-preta-titulo: hsl(var(0), var(0%), 0%);
 	--cor-text: hsl(var(0), var(0%), 46%);
 	--body: hsl(var(0), var(0%), 98%);
-	--container: #fff;
+	--container: #ffffff;
 	/*==== FONTES E TIPOGRAFIA =====*/
 	--font: "Poppins", sans-serif;
 	/* Tamanhos para fontes = .5rem = 8px | 1rem = 16px */
@@ -132,10 +133,10 @@ img {
 	margin-right: auto;
 }
 
-.grid {
+/* .grid {
 	display: grid;
 	gap: 1.5rem;
-}
+}  */
 
 /* =============== BOTÕES ============= */
 .button {
@@ -158,4 +159,12 @@ img {
 .button--flex {
 	display: inline-flex;
 	align-items: center;
+}
+
+/*=============== RESPONSIVIDADES =================*/
+@media screen and (max-width:992px) {
+	.container {
+		margin-left: var(--mb-1-5);
+		margin-right: var(--mb-1-5);
+	}
 }
