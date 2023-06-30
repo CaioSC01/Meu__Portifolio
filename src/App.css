@@ -5,11 +5,11 @@
 /*============ VARIAVEIS PARA O CSS ==========*/
 :root {
 	--header-height: 3rem;
-	/*======== CORES PARA O PROJETO =====*/
-	--cor-titulo: hsl(var(0), var(0%), 20%);
-	--cor-preta-titulo: hsl(var(0), var(0%), 0%);
-	--cor-text: hsl(var(0), var(0%), 46%);
-	--body: hsl(var(0), var(0%), 98%);
+	/*======== CORES BASES PARA O PROJETO =====*/
+	--cor-titulo: hsl(0, 0%, 20%);
+	--cor-preta-titulo: hsl(0, 0%, 0%);
+	--cor-text: hsl(0, 0%, 46%);
+	--body: hsl(0, 0%, 98%);
 	--container: #ffffff;
 	/*==== FONTES E TIPOGRAFIA =====*/
 	--font: "Poppins", sans-serif;
