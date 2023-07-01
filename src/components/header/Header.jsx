@@ -7,10 +7,10 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
-          Costa
+          SILVA
         </a>
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
-          <ul className="nav__list grid">
+          <ul className="nav__list ">
             <li className="nav__item">
               <a href="#inicio" className="nav__link active__link">
                 <i className="uil uil-estate nav__icon "></i> Inicio
@@ -28,7 +28,7 @@ const Header = () => {
             </li>
             <li className="nav__item">
               <a href="#serviços" className="nav__link">
-                <i className="uil uil-briefcase-alt nav__icon"></i> Meus
+                <i className="uil uil-briefcase-alt nav__icon"></i> 
                 serviços
               </a>
             </li>
