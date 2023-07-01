@@ -71,10 +71,116 @@
 	0% {
 		border-radius: 70% 30% 40% 60% / 60% 30% 70% 40%;
 	}
+
 	50% {
 		border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
 	}
+
 	100% {
-		border-radius: 70% 30% 40% 60%  / 60% 30% 70% 40%;
+		border-radius: 70% 30% 40% 60% / 60% 30% 70% 40%;
+	}
+}
+
+.home__scroll {
+	margin-top: 30px;
+	margin-left: 9.25rem;
+}
+
+.wheel {
+	animation: scroll 2s ease infinite;
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateY(0);
+	}
+
+	30% {
+		transform: translateY(3.75rem);
+	}
+}
+
+.home__scroll-name {
+	color: var(--cor-titulo);
+	font-weight: var(--font-medium);
+	margin-right: var(--mb-0-25);
+	margin-left: 2px;
+}
+
+.home__scroll-arrow {
+	font-size: 1.25rem;
+	color: var(--cor-titulo);
+}
+
+/* ============= RESPONSIVIDADE DA PAGINA DE INICIO ============= */
+
+@media screen and (max-width:992px) {
+	.home__content {
+		grid-template-columns: 100px repeat(2, 1fr);
+		column-gap: 1.25rem;
+	}
+
+	.home__hand {
+		width: 26px;
+		height: 26px;
+	}
+
+	.home__subtitle {
+		padding-left: 3.75rem;
+		margin-bottom: var(--mb-1);
+	}
+
+	.home__subtitle::before {
+		width: 42px;
+		top: 0.8rem;
+	}
+
+	.home__descricao {
+		max-width: initial;
+		margin-bottom: var(--mb-2-5);
+	}
+
+	.home__img {
+		width: 250px;
+		height: 250px;
+		box-shadow: inset 0 0 0 8px rgb(255 255 255 / 30%);
+	}
+}
+
+@media screen and (max-width:768px) {
+	.home {
+		margin-top: -50px;
+		margin-bottom: 50px;
+	}
+
+	.home__content {
+
+		grid-template-columns: 0.5fr 3fr;
+		padding-top: 3.5rem;
+
+	}
+
+	.home__img {
+		order: initial;
+		justify-self: initial;
+
+		box-shadow: inset 0 0 0 6px rgb(255 255 255 / 30%);
+		width: 200px;
+		height: 200px;
+	}
+
+	.home__data {
+		grid-column: 1/3;
+	}
+
+	.home__scroll {
+		display: none;
+	}
+}
+
+@media screen and (max-width:350px) {
+	.home__img {
+		width: 180px;
+		height: 180px;
 	}
 }
