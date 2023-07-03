@@ -43,3 +43,49 @@
 	padding: 0 4rem 0 0;
 	margin-bottom: var(--mb-2-5);
 }
+
+/*======== RESPONSIVIDADE OARA A PAGINA SOBRE MIM ========*/
+@media screen and (max-width:992px) {
+	.about__container {
+		grid-template-columns: 1fr;
+		row-gap: 2.5rem;
+	}
+
+	.about__img {
+		width: 220px;
+
+	}
+
+	.about__box {
+		padding: 0.7rem 0.5rem;
+	}
+
+	.about__data {
+		text-align: center;
+	}
+
+	.about__info {
+		justify-content: center;
+	}
+
+	.about__description {
+		padding: 0 5rem;
+		margin-bottom: 2rem;
+	}
+}
+
+@media screen and (max-width:576px) {
+	.about__info {
+		grid-template-columns: repeat(3, 2fr);
+	}
+
+	.about__description {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width:390px) {
+	.about__info {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
