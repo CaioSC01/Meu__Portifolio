@@ -1,5 +1,5 @@
 import React from "react";
-import "./about.css";
+import "./About.css";
 import AboutImg from "../../assets/Image/323214506_689480282640814_3260049567644528656_n.jpg";
 import CV from "../../assets/pdf/Curriculo Caio.pdf";
 import Info from "./Info";
