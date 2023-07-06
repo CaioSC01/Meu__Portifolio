@@ -17,8 +17,12 @@ const Services = () => {
             Ver mais <i className="uil uil-arrow services__button-icon"></i>
           </span>
           <div className="services__modal">
-            <div className="services__modal-content"></div>
-						<div className="uil uil-times services__modal services__modal-close"></div>
+            <div className="services__modal-content">
+							<i className="uil uil-times services__modal-close"></i>
+							<h3 className="services__modal-title"></h3>
+							<p className="services__modal-description"></p>
+						</div>
+						
           </div>
         </div>
       </div>
