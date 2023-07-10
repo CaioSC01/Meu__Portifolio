@@ -10,7 +10,7 @@ const Services = () => {
         <div className="services__content">
           <div>
             <i className="uil uil-web-grid services__icon"></i>
-            <h3 className="services__title">Designer de Produtos</h3>
+            <h3 className="services__title"> </h3>
           </div>
 
           <span className="services__button">
