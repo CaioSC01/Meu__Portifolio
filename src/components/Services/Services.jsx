@@ -10,7 +10,7 @@ const Services = () => {
         <div className="services__content">
           <div>
             <i className="uil uil-web-grid services__icon"></i>
-            <h3 className="services__title"> </h3>
+            <h3 className="services__title"> Desenvolvedor web</h3>
           </div>
 
           <span className="services__button">
@@ -20,7 +20,7 @@ const Services = () => {
           <div className="services__modal">
             <div className="services__modal-content">
               <i className="uil uil services__modal-close"></i>
-              <h3 className="services__modal-title"></h3>
+              <h3 className="services__modal-title">Desenvolvedor web</h3>
               <p className="services__modal-description">
                 {" "}
                 Com um pouco mais de um ano de experiência, ofereço soluções de
@@ -71,7 +71,7 @@ const Services = () => {
           <div className="services__modal">
             <div className="services__modal-content">
               <i className="uil uil-times services__modal-close"></i>
-              <h3 className="services__modal-title"></h3>
+              <h3 className="services__modal-title">Ui/Ux Designer</h3>
               <p className="services__modal-description">
                 Com um pouco mais de um ano de experiência, ofereço soluções de
                 sistemas, sites e designs modernos e eficientes de alta
@@ -121,7 +121,9 @@ const Services = () => {
           <div className="services__modal">
             <div className="services__modal-content">
               <i className="uil uil-times services__modal-close"></i>
-              <h3 className="services__modal-title"></h3>
+              <h3 className="services__modal-title">
+                Desenvolvimento de sistemas
+              </h3>
               <p className="services__modal-description">
                 {" "}
                 Com um pouco mais de um ano de experiência, ofereço soluções de
