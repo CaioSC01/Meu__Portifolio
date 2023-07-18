@@ -59,8 +59,7 @@ const Contacts = () => {
           <h3 className="contact__title">Me descreva seu projeto</h3>
           <form className="contact__form">
             <div className="contact__form-div">
-              <label className="contact__form-tag" />
-              Nome
+              <label className="contact__form-tag">Nome</label>
               <input
                 type="text"
                 name="nome"
@@ -69,8 +68,7 @@ const Contacts = () => {
               />
             </div>
             <div className="contact__form-div">
-              <label className="contact__form-tag" />
-              Email
+              <label className="contact__form-tag">Email</label>
               <input
                 type="email"
                 name="email"
@@ -78,15 +76,14 @@ const Contacts = () => {
                 placeholder="Insira seu email"
               />
             </div>
-            <div className="contact__form-div">
-              <label className="contact__form-tag" />
-              Projeto
+            <div className="contact__form-div contact__form-area">
+              <label className="contact__form-tag">Projeto</label>
               <textarea
                 type="text"
                 name="projeto"
                 cols={30}
                 rows={10}
-                className="contact__form-input"
+                className="contact__form-input "
                 placeholder="Digita seu projeto"
               />
             </div>
