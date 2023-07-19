@@ -41,35 +41,21 @@ const Services = () => {
               <h3 className="services__modal-title">Desenvolvedor web</h3>
               <p className="services__modal-description">
                 {" "}
-                Com um pouco mais de um ano de experiência, ofereço soluções de
-                sistemas, sites e designs modernos e eficientes de alta
-                qualidade. Meu portfólio reflete meu compromisso com a
-                excelência e minha paixão por criar projetos excepcionais. Estou
-                ansioso para colaborar com você e alcançar resultados incríveis
-                juntos.{" "}
+                Tenho mais de um ano de experiência em desenvolvimento web,
+                entregando e apresentando às pessoas páginas fluidas e modernas.{" "}
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Eu desenvolvo a interface do usuário
-                  </p>
+                  <p className="services__modal-info">Desing moderno</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Desenvolvo páginas Web</p>
+                  <p className="services__modal-info">Paginas fluidas</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Eu crio interações de elemento ux
-                  </p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Eu dou uma cara nova para sua empresa
-                  </p>
+                  <p className="services__modal-info">Responsividade</p>
                 </li>
               </ul>
             </div>
@@ -102,34 +88,33 @@ const Services = () => {
               ></i>
               <h3 className="services__modal-title">Ui/Ux Designer</h3>
               <p className="services__modal-description">
-                Com um pouco mais de um ano de experiência, ofereço soluções de
-                sistemas, sites e designs modernos e eficientes de alta
-                qualidade. Meu portfólio reflete meu compromisso com a
-                excelência e minha paixão por criar projetos excepcionais. Estou
-                ansioso para colaborar com você e alcançar resultados incríveis
-                juntos.
+                Tenho experiência em design centrado no usuário, utilizando o
+                Figma como ferramenta principal. Sempre busco entregar
+                exatamente o que o cliente deseja e precisa, criando designs
+                modernos que aprimoram a experiência do usuário e facilitam sua
+                interação com o produto.
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Eu desenvolvo a interface do usuário
+                    Figma eficiente
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Desenvolvo páginas Web</p>
+                  <p className="services__modal-info">Realizando design para web e sistema</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Eu crio interações de elemento ux
+                    Elementos ux interativos 
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Eu dou uma cara nova para sua empresa
+                    Implementação fluida
                   </p>
                 </li>
               </ul>
@@ -166,36 +151,26 @@ const Services = () => {
               </h3>
               <p className="services__modal-description">
                 {" "}
-                Com um pouco mais de um ano de experiência, ofereço soluções de
-                sistemas, sites e designs modernos e eficientes de alta
-                qualidade. Meu portfólio reflete meu compromisso com a
-                excelência e minha paixão por criar projetos excepcionais. Estou
-                ansioso para colaborar com você e alcançar resultados incríveis
-                juntos.{" "}
+                Ao longo de mais de um ano trabalhando em um sistema para uma empresa, adquiri habilidades que me tornaram mais eficiente e eficaz no desenvolvimento. Implementei uma abordagem intuitiva para os usuários, simplificando a utilização do sistema e automatizando funções, o que resultou em uma experiência mais fluida e produtiva.{" "}
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Eu desenvolvo a interface do usuário
+                    Interface responsiva e eficaz
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Desenvolvo páginas Web</p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Eu crio interações de elemento ux
-                  </p>
+                  <p className="services__modal-info"> Automatização de funçoes </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Eu dou uma cara nova para sua empresa
+                   Melhor desempenho 
                   </p>
                 </li>
+              
               </ul>
             </div>
           </div>
